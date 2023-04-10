@@ -14,8 +14,6 @@ function App() {
     category === "none_selected" ? getProducts() : getProductsByCategories();
   };
 
-  console.log(category);
-
   const resetProducts = () => {
     getProducts();
   };
