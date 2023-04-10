@@ -16,6 +16,7 @@ function App() {
 
   const resetProducts = () => {
     getProducts();
+    setCategory("none_selected")
   };
 
   const handleChange = (e) => {
